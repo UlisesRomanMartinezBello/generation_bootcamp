@@ -1,0 +1,46 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.titulo {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.caja1 {
+    background-color: #EC82EE;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.caja2 {
+    background-color: #EB7F3A;
+    border: 2px solid #B34F1C;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.caja3 {
+    border-left: 6px solid #E62E87;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color: #F7F5F5;
+}
+
+.caja4 {
+    border-bottom: 2.5px solid #F0A6CF;
+    border-top: 2.5px solid #F0A6CF;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background-color: #F7F5F5;
+}

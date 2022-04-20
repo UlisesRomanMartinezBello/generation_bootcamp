@@ -1,0 +1,50 @@
+body {
+    background-color: #C6D9EE;
+    
+}
+
+.contenedor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.capitalize {
+    font-size: 2.5rem;
+}
+
+.texto-rojo {
+    color: red;
+    font-style: italic;
+}
+
+p {
+    text-indent: 2.5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.texto-uno {
+    color: chocolate;
+}
+
+.texto-dos {
+    background-color: #FFFFFF;
+    color: #008000;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}

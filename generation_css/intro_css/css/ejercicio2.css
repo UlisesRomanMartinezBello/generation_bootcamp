@@ -1,0 +1,29 @@
+body {
+    background-color: #3F8652;
+}
+
+/* Titulo */
+.titulo {
+    font-weight: 700;
+}
+
+/* Cursiva, blanca */
+.texto-uno {
+    color: #fff;
+    font-style: italic;
+}
+
+/* Amarillo claro */
+.texto-dos {
+    color: #F7FF93;
+}
+
+/* Amarillo */
+.texto-tres {
+    color: #F8B400;
+}
+
+/* Rojo */
+.texto-cuatro {
+    color: #FF6363;
+}

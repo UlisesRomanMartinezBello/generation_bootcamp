@@ -1,0 +1,40 @@
+body {
+    background-color: #7DFCD5;
+}
+
+table {
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+table thead th {
+    padding: 0 2rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-yellow {
+    color: #E5FE49;
+}
+
+.bg-orange {
+    background-color: #D26922;
+}
+
+.bg-green {
+    background-color: #7EFC03;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bold {
+    font-weight: bold;
+}

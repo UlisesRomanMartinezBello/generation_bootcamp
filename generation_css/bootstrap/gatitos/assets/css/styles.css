@@ -14,3 +14,15 @@
     object-fit: cover;
     object-position: center;
 }
+
+.img-card {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.frame-video {
+    width: 100%;
+    height: 250px;
+}

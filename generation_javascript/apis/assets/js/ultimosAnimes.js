@@ -6,9 +6,6 @@ fetch(url)
     .then(datos => {
         const ultimosAnimes = datos.data.slice(0, 16);
         ultimosAnimes.forEach(anime => {
-
-            console.log(anime)
-
             const datosAnimes = {
                 nombre: anime.title,
                 imagen: anime.images.webp.image_url,
@@ -17,12 +14,14 @@ fetch(url)
             };
 
             const template = `<div class="col mb-4">
-                                <div class="card">
-                                    <img src="${datosAnimes.imagen}" class="card-img-top" alt="${datosAnimes.imagen}">
-                                    <div class="card-body">
-                                        <h5 class="card-title">${datosAnimes.nombre}</h5>
+                                <a href="informacion.html?id=${datosAnimes.id}">
+                                    <div class="card">
+                                        <img src="${datosAnimes.imagen}" class="card-img-top" alt="${datosAnimes.imagen}">
+                                        <div class="card-body">
+                                            <h5 class="card-title">${datosAnimes.nombre}</h5>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>`;
 
             cardsUltimosAnimes.innerHTML += template;

@@ -3,3 +3,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+a {
+    text-decoration: none;
+}
